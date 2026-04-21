@@ -1,0 +1,17 @@
+HttpMethod DEFINITIONS ::=
+BEGIN
+
+HttpMethodEnum ::= ENUMERATED {
+	unspecified (0),
+	delete (1),
+	post (2),
+	options (3),
+	get (4),
+	head (5),
+	connect (6),
+	put (7),
+	patch (8),
+	trace (9)
+}
+
+END
